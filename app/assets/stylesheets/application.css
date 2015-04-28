@@ -98,9 +98,9 @@ table td{
     font-family: Tahoma,Arial,Verdana,sans-serif;
     font-size: 16px;
     
-    border: 1px solid #DDDDDD;
-    border-radius: 4px;
-    box-shadow: 0 0 1px #222222;
+    /*border: 1px solid #DDDDDD;*/
+    /*border-radius: 4px;*/
+    /*box-shadow: 0 0 1px #222222;*/
     
     cursor:pointer;
     padding:5px 20px;
@@ -120,11 +120,16 @@ a.ui_button {
     text-decoration: none;
     display:inline-block;
     vertical-align:middle;
-    padding: 6px 23px;
+    padding: 7px 24px;
 }
 
 .ui_button.green  {
-    background-color:#9BB73E;
+    background-color: #16a085;
+    color:#FFFFFF;
+}
+
+.ui_button.green  {
+    background-color: #16a085;
     color:#FFFFFF;
 }
 
@@ -150,18 +155,18 @@ a.ui_button.small {
 
 #header .ui_button {
     color: #ffffff;
+    background-color: #3498db;
 }
 
 #header .inner_header {
     margin-left: auto;
     margin-right: auto;
     width: 970px;
-    padding:12px 0px;
+    padding:12px 0 8px 0;
 }
 
 #header .logo {
     color:#ffffff;
-    font-size:26px;
 }
 
 .user_stuff > a{
@@ -357,13 +362,13 @@ form .actions {
 .field input,.simple_captcha_field input,.search_input {
     font-family: Arial,Helvetica,serif;
 
-    -webkit-border-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius:5px 5px 5px 5px;
-    border-radius:5px 5px 5px 5px;
+    /*-webkit-border-radius: 5px;*/
+    /*-webkit-border-top-right-radius: 5px;*/
+    /*-webkit-border-top-left-radius: 5px;*/
+    /*-webkit-border-bottom-left-radius: 5px;*/
+    /*-webkit-border-bottom-right-radius: 5px;*/
+    /*-moz-border-radius:5px 5px 5px 5px;*/
+    border-radius: 0;
 
     width:100%;
     padding:8px 6px;
@@ -602,7 +607,7 @@ table .achievement { margin-bottom:0px;}
 
 .top a.ui_button {
     width:300px;
-    font-size:19px;
+    font-size:18px;
 }
 
 .top .search_form {
@@ -1070,6 +1075,10 @@ table .achievement { margin-bottom:0px;}
 .user_ls .name {
     margin-right:5px;
     float:left;
+}
+
+.user_ls .name {
+    color: #fff;
 }
 
 .user_ls .reputation {
