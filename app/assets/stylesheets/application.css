@@ -1077,8 +1077,8 @@ table .achievement { margin-bottom:0px;}
     float:left;
 }
 
-.user_ls .name {
-    color: #fff;
+.user_ls .name a {
+    color: #ffffff;
 }
 
 .user_ls .reputation {
