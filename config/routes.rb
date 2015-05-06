@@ -106,6 +106,8 @@ Qaror::Application.routes.draw do
   match '/faq' => 'main#pages', :as => :faq
   match '/privacy' => 'main#pages', :as => :privacy
   match '/privileges' => 'pages#privileges', :as => :privileges
+  match '/about' => 'main#about', :as => :about
+  match '/parents' => 'main#parents', :as => :parents
   
   match '/remind_password', :to => 'users#remind_password_edit',:as=>:remind_password_edit_users
   match '/register', :to => 'users#new',:as => :register
