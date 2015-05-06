@@ -4,7 +4,7 @@ common: &common
   display_app_name: "Whys"
 
   # for mailer only
-  app_domain: "whys.herokuapp.com"
+  app_domain: "qaror.herokuapp.com"
 
   remote_external_hash: "__external_hash"
   remote_cookies: "__session"
