@@ -1,5 +1,5 @@
 <%= form_for(object,:url => :"#{report_type}_#{object.class.name.downcase}",:html => {:class => 'remote-submit' }) do |f| %>
-  <div style="margin-bottom:5px;" class="small_font">Wybierz lub opisz co jest powodem twojego zgłoszenia:</div>
+  <div style="margin-bottom:5px;" class="small_font">Select or describe the reason for your report:</div>
   <div class="field">
     <%= select_tag(:select_acomment, options_for_select(t("#{report_type}_desc")) ) %>
   </div>

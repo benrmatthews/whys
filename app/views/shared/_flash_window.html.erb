@@ -3,12 +3,12 @@
     <div class="f_middle">
       <div class="flash_background">
         <div id="flash_dialog" class="flash_window" style="display:none;">
-          <h2>Wypełnij formularz</h2>
+          <h2>Fill out the form</h2>
           <div class="content">
           </div>
         </div>
         <div id="flash_confirm" class="flash_window" style="display:none;">
-          <h2>Potwierdzenie</h2>
+          <h2>Confirmation</h2>
           <div class="content">
           </div>
           <div class="actions">
@@ -35,17 +35,17 @@
         </div>
         <div id="flash_editor" class="flash_window" style="display:none;">
           <span class="_close">&#215;</span>
-          <h2>Wstaw zdjęcie</h2>
+          <h2>Insert image</h2>
           <div class="content">
             <div>
-              <span><strong>Z sieci</strong></span>
-              <span style="height:26px;line-height:26px;" class="small_font"> (wklej adres url zawierający zdjęcia)</span>
+              <span><strong>On the Web</strong></span>
+              <span style="height:26px;line-height:26px;" class="small_font"> (paste the url of the photo)</span>
               <%= render 'shared/remoteform' %>
             </div>
             <div class="sep_dotted"></div>
             <div>
-              <span><strong>Z komputera</strong></span>
-              <span style="height:26px;line-height:26px;" class="small_font"> (formaty .jpg, .gif, .png o rozmiarze do 4mb)</span>
+              <span><strong>From you computer</strong></span>
+              <span style="height:26px;line-height:26px;" class="small_font"> (format: .jpg, .gif, .png and no larger than 4mb)</span>
               <div id="fileuploader"></div>
               <%#= render 'attaches/form' %>
             </div>

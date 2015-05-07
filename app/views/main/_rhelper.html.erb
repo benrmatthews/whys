@@ -1,11 +1,18 @@
 <div class="rhelper">
   <div class="block">
     <div class="title"><h3>What is Whys?</h3></div>
+    <%= link_to image_tag('about-whys-questions-answers-young-people.jpg', alt:APP_CONFIG['display_app_name'], border: 0, height:'150px'), about_url %>
+    <br>
+    <br>
     <div class="bdesc">
-      Whys is a website that helps young people ask questions and discuss answers to help them explore and understand the world around them.
-      <div><a href="/about">Find out more.</a></div>
+      Whys helps young people ask questions and discuss answers to help them explore and understand the world around us.
+    </div>
+    <br>
+    <div>
+      <%= link_to "Find out more", about_url,:class=> 'ui_button green' %>
     </div>
   </div>
+  <br>
   <div class="block">
     <div class="title"><h3>Latest tags</h3></div>
     <div class="tags">
